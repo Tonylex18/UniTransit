@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { 
-  ArrowRight, 
-  Bus, 
-  Clock, 
-  MapPin, 
-  Shield, 
-  Star, 
+import {
+  ArrowRight,
+  Bus,
+  Clock,
+  MapPin,
+  Shield,
+  Star,
   Users,
   Menu,
   X,
@@ -34,16 +34,15 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Navigation */}
-      <nav className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
-      }`}>
+      <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
+        }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <Bus className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">UniTransit</span>
             </div>
-            
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
@@ -84,9 +83,9 @@ function App() {
       <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1556122071-e404eaedb77f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" 
-            alt="Background" 
+          <img
+            src="https://images.unsplash.com/photo-1556122071-e404eaedb77f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
+            alt="Background"
             className="w-full h-full object-cover"
           />
           {/* Overlay */}
@@ -126,8 +125,8 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1495314736024-fa5e4b37b979?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              <img
+                src="https://images.unsplash.com/photo-1495314736024-fa5e4b37b979?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 alt="Students using UniTransit"
                 className="rounded-lg shadow-xl"
               />
@@ -218,24 +217,59 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Founder & CEO",
-                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                name: "Faridah Abdulazeez",
+                role: "CEO & Founder",
+                image: "faridah.jpeg"
               },
               {
-                name: "Michael Chen",
-                role: "Head of Engineering",
-                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                name: "Alhassan Aliyu",
+                role: "COO",
+                image: "aliyu.jpeg"
               },
               {
-                name: "Emily Rodriguez",
-                role: "Product Manager",
+                name: "Agada Anthony",
+                role: "CTO",
+                image: "tony.jpeg"
+              },
+              {
+                name: "Aidi Joheobe",
+                role: "Business Dev. & Marketing Lead",
+                image: "pius.png"
+              },
+              {
+                name: "Anthony Nanzing",
+                role: "Finance & Accounting Manager",
+                image: "anthony.jpeg"
+              },
+              {
+                name: "Kije Joshua",
+                role: "Customer Support & Relations Officer",
+                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+              },
+              {
+                name: "Adigun Mohammed",
+                role: "Operations & Logistics Manager",
+                image: "adikun.jpeg"
+              },
+              {
+                name: "Abdulamaleek Ahmed",
+                role: "HR & Compliance Officer",
+                image: "maleek.jpeg"
+              },
+              {
+                name: "Boniface Gabriel",
+                role: "UI/UX Designer",
+                image: "gabriel.png"
+              },
+              {
+                name: "Isaac Odunayo",
+                role: "Data Analyst & Performance Strategist",
                 image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
-                <img 
-                  src={member.image} 
+                <img
+                  src={member.image}
                   alt={member.name}
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
