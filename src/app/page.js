@@ -38,7 +38,10 @@ function App() {
         }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <div className="flex items-center">
+            <div 
+            className="flex items-center"
+            onClick={() => window.location.href = 'https://uni-transit.vercel.app/'}
+            >
               <Bus className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">UniTransit</span>
             </div>
@@ -49,7 +52,10 @@ function App() {
               <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
               <a href="#team" className="text-gray-600 hover:text-blue-600 transition-colors">Team</a>
               <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <button 
+              onClick={() => window.location.href = 'https://unitransit-admin.vercel.app/'}
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
                 Get Started
               </button>
             </div>
