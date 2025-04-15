@@ -250,7 +250,7 @@ function App() {
               {
                 name: "Kije Joshua",
                 role: "Customer Support & Relations Officer",
-                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                image: "kije.jpeg"
               },
               {
                 name: "Adigun Mohammed",
@@ -270,7 +270,7 @@ function App() {
               {
                 name: "Isaac Odunayo",
                 role: "Data Analyst & Performance Strategist",
-                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                image: "isaac.jpeg"
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
