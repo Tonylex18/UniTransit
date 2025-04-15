@@ -132,7 +132,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1495314736024-fa5e4b37b979?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="futminna2.jpg"
                 alt="Students using UniTransit"
                 className="rounded-lg shadow-xl"
               />
@@ -305,7 +305,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
-                  <p className="text-gray-600">123 University Ave, Campus Center, Suite 200</p>
+                  <p className="text-gray-600">123 University Campus Center, Minna</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -314,7 +314,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+234 7039018318</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -323,7 +323,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                  <p className="text-gray-600">contact@unitransit.com</p>
+                  <p className="text-gray-600">admin@unitransit.com</p>
                 </div>
               </div>
             </div>
